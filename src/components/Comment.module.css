@@ -1,0 +1,85 @@
+.comment {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.comment img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 8px;
+}
+
+.commentBox {
+  width: 100%;
+}
+
+.commentContent {
+  background-color: var(--gray-700);
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-300);
+}
+
+.commentContent header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.authorAndTime strong {
+  display: block;
+  font-weight: bold;
+  font-size: 0.87rem;
+  line-height: 1.6;
+}
+
+.authorAndTime time {
+  display: block;
+  line-height: 1.6;
+  font-size: 0.68rem;
+}
+
+.commentContent header button {
+  border: none;
+  background-color: transparent;
+  color: var(--gray-400);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+}
+
+.commentContent header button:hover {
+  color: var(--red-500);
+}
+
+.commentBox footer button {
+  background-color: transparent;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+
+  color: var(--gray-400);
+}
+
+.commentBox footer button:hover {
+  color: var(--green-300);
+} 
+
+.commentBox footer button svg {
+  margin-right: 0.62rem;
+}
+
+.commentBox footer button span {
+  margin-left: 0.22rem;
+}
+
+.commentBox footer button span::before {
+  content: "\2022";
+  padding-right: 0.25rem;
+}

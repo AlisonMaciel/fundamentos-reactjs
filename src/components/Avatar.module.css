@@ -1,0 +1,15 @@
+.avatarWithBorder {
+  box-sizing: initial;
+  margin-top: -35px;
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 6px;
+  border: 3px solid var(--gray-900);
+  outline: 2px solid var(--green-300);
+}
+
+.avatar {
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 6px;
+}
